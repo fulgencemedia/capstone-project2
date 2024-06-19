@@ -1,0 +1,106 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+header {
+  background-color: antiquewhite;
+}
+
+.my-name, .my-job {
+  color: #444;
+}
+
+.my-name {
+  font-size: 2.5em;
+  font-weight: bold;
+}
+
+.my-job {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+.profile-picture {
+  height: 160px;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+
+main h1 {
+  font-size: 2em;
+  margin-top: 20px;
+  color: blue;
+  font-weight: bold;
+}
+
+main p {
+  font-size: 1.2em;
+  margin: 10px 0;
+}
+
+footer {
+  background-color: #f8f9fa;
+  padding: 20px 0;
+}
+
+footer p {
+  margin: 0;
+  font-size: 0.9em;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+footer ul li {
+  display: inline;
+  margin-left: 10px;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: #6c757d;
+}
+
+@media (max-width: 768px) {
+  .my-name, .my-job, .profile-picture, main h1, main p {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .profile-picture {
+    margin: 0 auto 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  .my-name {
+    font-size: 2em;
+  }
+
+  .my-job {
+    font-size: 1.2em;
+  }
+
+  .profile-picture {
+    height: 120px;
+  }
+
+  main h1 {
+    font-size: 1.5em;
+  }
+
+  main p {
+    font-size: 1em;
+  }
+}
+.icon-container{
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+  justify-content: center;
+  align-items: center;
+}
